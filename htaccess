@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} siakad.aliyahyasmu.sch.id [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://siakad.aliyahyasmu.sch.id/$1 [R,L]
